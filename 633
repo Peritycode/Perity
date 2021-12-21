@@ -1,0 +1,295 @@
+f7::
+     InputBox, Komenda1, Ile kratek?, Wpisz ile kratek chcesz kopac
+     InputBox, Komenda2, Naprawkilof czy Repair?, /repair czy /naprawkilof?
+     Komenda1 := Komenda1 * 232
+     InputBox, Kilof, Kilof, Na ktorym slotcie masz kilof? (Nie ustawiaj na 2 3 lub 4)
+     InputBox, Jedzenie, Jedzenie, Na ktorym slotcie masz jedzenie? (Nie ustawiaj na 2 3 lub 4)
+return
+f8::
+loop
+     {
+          Send, t
+          Sleep 300
+          Send, Kopanie by Perity <3
+          Sleep 300
+          Send, {enter}
+          Sleep 300
+          Send, t
+          Sleep 300
+          Send, Kopanie by Perity
+          Sleep 300
+          Send, {enter}
+          Sleep 300
+          Send, %Jedzenie%
+          click down right
+          Sleep 3300
+          click up right
+          Sleep 300
+          Send, t
+          Sleep 1500
+          Send, /cx
+          Sleep 300
+          Send, {enter}
+          Sleep 1500
+          Send, %Kilof%
+          Sleep 300
+          Send, t
+          Sleep 300
+          Send, %Komenda2%
+          Sleep 300
+          Send, {enter}
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Send, e
+          Sleep 300
+          DllCall("SetCursorPos", "int", 855, "int", 700) ;slot 2
+          Sleep 300
+          Click
+          Sleep 300
+          Click right
+          Sleep 300
+          DllCall("SetCursorPos", "int", 600, "int", 550) ;poza eq
+          Sleep 300
+          Click
+          Sleep 300
+          Send, e
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, e
+          Sleep 300
+          DllCall("SetCursorPos", "int", 890, "int", 700) ;slot 3
+          Sleep 300
+          Click
+          Sleep 300
+          Click right
+          Sleep 300
+          DllCall("SetCursorPos", "int", 600, "int", 550) ;poza eq
+          Sleep 300
+          Click
+          Sleep 300
+          Send, e
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+          Sleep 300
+          Send, e
+          Sleep 300
+          DllCall("SetCursorPos", "int", 925, "int", 700) ;slot 4
+          Sleep 300
+          Click
+          Sleep 300
+          Click right
+          Sleep 300
+          DllCall("SetCursorPos", "int", 600, "int", 550) ;poza eq
+          Sleep 300
+          Click
+          Sleep 300
+          Send, e
+          Sleep 300
+          Send, {d down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {d up}
+          Click up
+          Send, {a down}
+          Click down
+          Sleep, %Komenda1%
+          Send, {a up}
+          Click up
+     }
+return
+
+f9::
+     ExitApp
+return
